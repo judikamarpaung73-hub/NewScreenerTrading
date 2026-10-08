@@ -1,0 +1,95 @@
+# idx_tickers.txt
+# Satu kode saham per baris (tanpa ".JK", ditambahkan otomatis oleh kode).
+# Baris yang diawali '#' atau baris kosong diabaikan.
+#
+# INI DAFTAR AWAL (starter list), BUKAN daftar lengkap/resmi LQ45 atau
+# IDX80 -- keanggotaan indeks tersebut berganti tiap ~6 bulan dan TIDAK
+# diverifikasi ulang saat file ini dibuat. Anggap ini titik awal yang
+# masuk akal (saham besar/mid-cap yang umum dikenal likuid), lalu:
+#   - Cross-check & lengkapi sendiri terhadap IDX80/LQ45 resmi di idx.co.id
+#   - Tahap 1 (likuiditas) di screener akan otomatis menyaring saham yang
+#     TERNYATA tidak cukup likuid, jadi memasukkan nama yang kurang likuid
+#     di sini tidak berbahaya -- hanya menambah waktu scan.
+
+# --- Perbankan ---
+BBCA
+BBRI
+BBNI
+BMRI
+BRIS
+BBTN
+BNGA
+NISP
+ARTO
+
+# --- Telekomunikasi & Menara ---
+TLKM
+EXCL
+ISAT
+TOWR
+TBIG
+
+# --- Consumer Goods & Ritel ---
+UNVR
+ICBP
+INDF
+MYOR
+GGRM
+HMSP
+SIDO
+ULTJ
+AMRT
+MAPI
+ACES
+CPIN
+JPFA
+
+# --- Pertambangan & Energi ---
+ADRO
+PTBA
+ITMG
+ANTM
+INCO
+MDKA
+AMMN
+BREN
+PGAS
+MEDC
+ELSA
+
+# --- Petrokimia, Semen & Industri Dasar ---
+TPIA
+SMGR
+INTP
+INKP
+BRPT
+AKRA
+
+# --- Otomotif & Alat Berat ---
+ASII
+UNTR
+
+# --- Properti & Konstruksi ---
+BSDE
+CTRA
+PWON
+SMRA
+JSMR
+PTPP
+WIKA
+
+# --- Teknologi & Ekonomi Baru ---
+GOTO
+BUKA
+EMTK
+
+# --- Farmasi & Kesehatan ---
+KLBF
+MIKA
+SIDO
+
+# --- Lain-lain (kapitalisasi besar/likuid) ---
+SRTG
+ERAA
+SCMA
+CUAN

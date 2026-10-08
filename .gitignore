@@ -1,0 +1,10 @@
+config.py
+*.log
+data/*
+!data/.gitkeep
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+*.tmp
